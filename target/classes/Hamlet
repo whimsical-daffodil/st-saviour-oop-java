@@ -1,0 +1,7 @@
+public class Hamlet{
+
+    public boolean English;
+    public int YearPublished;
+    public String title;
+
+}

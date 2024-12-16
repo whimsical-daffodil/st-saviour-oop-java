@@ -1,0 +1,7 @@
+public class Shakespeare {
+
+    public boolean English;
+    public int published; 
+    public boolean AprilBaby;
+
+}

@@ -1,0 +1,6 @@
+public class Chaucer{ 
+
+    public boolean English;
+    public int published;
+
+}

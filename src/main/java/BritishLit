@@ -1,0 +1,26 @@
+public class BritishLit {
+    
+    public boolean English;
+    public String title ;
+    public String Author;
+ 
+
+    public BritishLit (boolean English, String title, String Author){
+
+        this.English = English; 
+        this.title = title; 
+        this.Author = Author;
+
+            if this.English = true{
+
+                System.out.println( this.Author + "is a British Author who wrote" + this.title);
+                
+            }
+    }
+
+    public Read (boolean English, String title, String Author){
+        
+        if Eng
+    }
+
+}

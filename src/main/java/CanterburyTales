@@ -1,0 +1,6 @@
+public class CanterburyTales{ 
+
+    public boolean English;
+    public int YearPublished;
+    public String title;
+}
