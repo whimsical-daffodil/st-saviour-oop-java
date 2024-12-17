@@ -1,7 +1,24 @@
 public class Hamlet{
 
-    public boolean English;
-    public int YearPublished;
+    public boolean english;
+    public int yearPublished;
     public String title;
+
+    public Hamlet (boolean english, int yearPublished, String title){
+
+        this.english = english;
+        this.yearPublished = yearPublished;
+        this.title = title;
+
+        if this.title = 'Hamlet'{
+
+            System.out.println("Hamlet, written by Shakespeare was written in the year" + yearPublished)
+
+        }
+
+            
+        }
+
+    }
 
 }

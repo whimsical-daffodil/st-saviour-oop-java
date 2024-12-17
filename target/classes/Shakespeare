@@ -1,7 +1,19 @@
 public class Shakespeare {
 
-    public boolean English;
+    public boolean english;
     public int published; 
-    public boolean AprilBaby;
+    public boolean aprilBaby;
 
+    public Shakespeare (boolean english, int published, boolean aprilBaby){
+        this.english = english;
+        this.published = published;
+        this.aprilBaby = aprilBaby;
+
+        if this.aprilBaby = true{
+            
+            System.out.println( 'Shakespeare is a English author who was born in April, and published' + this.published + 'many works')
+
+        }
+
+    }
 }

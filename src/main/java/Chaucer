@@ -1,6 +1,20 @@
 public class Chaucer{ 
 
-    public boolean English;
+    public boolean english;
     public int published;
+    public String name;
+
+    public Chaucer (boolean english, int published, String name){
+
+        this.english = english;
+        this.published = published;
+        this.name = name;
+
+        if this.name = 'Chaucer'{
+
+            System.out.println(this.name 'is an English author who published' + published + 'many works')
+
+        }
+    }
 
 }

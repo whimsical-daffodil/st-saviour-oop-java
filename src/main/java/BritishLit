@@ -1,26 +1,26 @@
 public class BritishLit {
     
-    public boolean English;
+    public boolean english;
     public String title ;
-    public String Author;
+    public String author;
  
 
-    public BritishLit (boolean English, String title, String Author){
+    public BritishLit (boolean english, String title, String author){
 
-        this.English = English; 
+        this.english = english; 
         this.title = title; 
-        this.Author = Author;
+        this.author = author;
 
-            if this.English = true{
+            if this.english = true(
 
-                System.out.println( this.Author + "is a British Author who wrote" + this.title);
+                System.out.println( this.author + "is a British Author who wrote" + this.title);
                 
-            }
+            )
     }
 
-    public Read (boolean English, String title, String Author){
+    public Read (boolean english, String title, String author){
         
-        if Eng
+      
     }
 
 }
