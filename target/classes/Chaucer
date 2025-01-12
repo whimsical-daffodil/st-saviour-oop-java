@@ -3,6 +3,7 @@ public class Chaucer{
     public boolean english;
     public int published;
     public String name;
+    
 
     public Chaucer (boolean english, int published, String name){
 
@@ -12,9 +13,12 @@ public class Chaucer{
 
         if this.name = 'Chaucer'{
 
-            System.out.println(this.name 'is an English author who published' + published + 'many works')
+            System.out.println(this.name 'is an English author who published' + this.published + 'many works')
 
         }
+
     }
+
+    
 
 }

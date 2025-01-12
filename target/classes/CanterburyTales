@@ -1,6 +1,29 @@
 public class CanterburyTales{ 
 
-    public boolean English;
-    public int YearPublished;
+    public boolean english;
+    public int yearPublished;
     public String title;
+    public String author;
+    public int stories; 
+    public String reader; 
+
+    public information (boolean english, int yearPublished, String title, String author, int stories ){
+
+        this.english = english;
+        this.yearPublished = yearPublished;
+        this.title = title;
+        this.author = author
+        this.stories = stories
+
+        if this.english = true{
+            System.out.println(this.title + 'is a piece of British literature')
+            System.out.println('The author of' + this.tile + 'is' + this.author)
+            System.out.println('There are' + this.stories + 'many books that make up the Canterbury tales')
+        }
+    }
+
+    public read (){
+        this.reader
+    }
+
 }

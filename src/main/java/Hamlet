@@ -1,24 +1,25 @@
-public class Hamlet{
+class Hamlet extends Shakespeare{
 
-    public boolean english;
-    public int yearPublished;
-    public String title;
+    public int acts;
+    public int scenes;
 
-    public Hamlet (boolean english, int yearPublished, String title){
-
-        this.english = english;
-        this.yearPublished = yearPublished;
-        this.title = title;
-
-        if this.title = 'Hamlet'{
-
-            System.out.println("Hamlet, written by Shakespeare was written in the year" + yearPublished)
-
-        }
-
-            
-        }
-
+    // constructor 
+    public Hamlet (String title,boolean english, String author, int published, int acts, int scenes){
+        super(title, english, author, published);
+        this.acts = acts
+        this.scenes = scenes
+        
     }
+
+    public void read(){
+        System.out.println("You have read up to act" + acts + "and scene" + scenes + "of Hamlet");
+        
+    }
+
+    public void information(){
+        system.out.println(title "was published in the year" + published + "by" + author);
+        system.out.println(title + "has a total of" + acts "acts, and" scenes "scenes");
+    }
+
 
 }
