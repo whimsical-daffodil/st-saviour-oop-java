@@ -1,11 +1,11 @@
-abstract class BritishLit {
+public abstract class BritishLit {
     
     public boolean english;
     public String title ;
     public String author;
  
     // constructor 
-    public void BritishLit (boolean english, String title, String author){
+    public void BritishLit(boolean english, String title, String author){
 
         this.english = english; 
         this.title = title; 

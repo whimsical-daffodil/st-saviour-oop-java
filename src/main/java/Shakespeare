@@ -4,15 +4,15 @@ class Shakespeare extends BritishLit {
     public boolean aprilBaby;
 
     // constructor 
-    public Shakespeare (String title, String author, boolean english, int published, boolean aprilBaby) {
+    public Shakespeare (boolean english, String title, String author, int published, boolean aprilBaby) {
         super(title, english, author);
-        this.published = published
-        this.aprilBaby = aprilBaby
+        this.published = published;
+        this.aprilBaby = aprilBaby;
     }
     
     @Override
     public void wrote(){
-        system.out.println("Shakespeare wrote" + title + "in the year" + published);
+        system.out.println(author "wrote" + title + "in the year" + published);
     }
       
 }

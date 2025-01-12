@@ -1,24 +1,37 @@
-public class Chaucer{ 
+class Chaucer extends BritishLit { 
 
-    public boolean english;
-    public int published;
-    public String name;
-    
+    private String poet;
+    private boolean London;
 
-    public Chaucer (boolean english, int published, String name){
-
-        this.english = english;
-        this.published = published;
-        this.name = name;
-
-        if this.name = 'Chaucer'{
-
-            System.out.println(this.name 'is an English author who published' + this.published + 'many works')
-
-        }
+    public Chaucer(boolean english, String title, String author, String poet, boolean London){
+        super(english, title, author);
+        this.poet = poet;
+        this.London = London;
 
     }
 
+    // getter and setter
+    public String getPoet(){
+        return poet;
+    }
+
+    public void setPost(String poet){
+        this.poet = poet;
+    }
+
+    public boolean isLondon(){
+        return London;
+    }
+
+    public void setLondon(boolean London){
+        this.London = London
+    }
+
+    @Override
+    public void wrote(){
+        system.out.println(author "wrote" + title + "in the year" + published);
+    }
+}
+
     
 
-}

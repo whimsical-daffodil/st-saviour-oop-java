@@ -16,7 +16,11 @@ class Hamlet extends Shakespeare{
         
     }
 
-    public void information(){
+    public interface readingLog{
+        void read();
+    }
+
+    public void info(){
         system.out.println(title "was published in the year" + published + "by" + author);
         system.out.println(title + "has a total of" + acts "acts, and" scenes "scenes");
     }
